@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>School</title>
+    <!--link font-->
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+    <!--link css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://fortawesome.github.io/Font_Awesome/"> -->
+</head>
+<body>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="count">
+                        <i class="fa fa-book fa-2x"></i>
+                        <h2><span class="text-center counter">800</span></h2>
+                        <p class="count-text">un texte</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count">
+                        <i class="fa fa-book fa-2x"></i>
+                        <h2><span class="text-center counter">500</span></h2>
+                        <p class="count-text">un texte</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count">
+                        <i class="fa fa-book fa-2x"></i>
+                        <h2><span class="text-center counter">900</span></h2>
+                        <p class="count-text">un texte</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count">
+                        <i class="fa fa-book fa-2x"></i>
+                        <h2><span class="text-center counter">700</span></h2>
+                        <p class="count-text">un texte</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#"><span class="partone">E-SC</span><span class="parttwo">HOOL</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link bordure" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bordure" href="actualite.html">Actualité</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Bibliotheque
+            </a>
+            <div class="dropdown-menu">
+              <a href="devoir.html">Devoirs</a>
+              <a href="examen.html">Examen</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Connexion
+            </a>
+            <div class="dropdown-menu">
+              <a href="connexion_eleve.html">Espace eleve</a>
+              <a href="connexion_parent.html">Espace parent</a>
+              <a href="connexion_prof.html">Espace professeur</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              A propos
+            </a>
+            <div class="dropdown-menu">
+              <a href="historique.html">Historique</a>
+              <a href="proviseur.html">Proviseur</a>
+              <a href="educateur.html">Educateurs</a>
+              <a href="teach.html">Professeurs</a>
+              <a href="student.html">Elèves</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--welcome-->
+    <section id="welcome">
+    <!--navbar-->
+    <!--carousel-->
+    <section id="caroussel">
+            <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+              <!-- Indicateurs -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+      
+              <!-- Carrousel -->
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="3000">
+                  <div class="slide1">
+                        <h6 class="text-copy text-center">Votre réussite est notre mission</h6>
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                  <div class="slide2">
+                        <h6 class="text-copy text-center">L'éducation, c'est la vie</h6 class="text-copy">
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                  <div class="slide3">
+                        <h6 class="text-copy text-center">Nous aidons nos élèves à <br> avoir leurs meilleures capacités</h6 class="text-copy">
+                  </div>  
+                </div>
+              </div>
+              
+              <!-- Contrôles -->
+              <!-- <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Précédent</span>
+              </a>
+              <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Suivant</span>
+              </a> -->
+            </div>
+    </section>
+    <!--carousel-->
+        <div class="container">
+            <h5>Bienvenue à l'école d'Exellence</h5>
+        </div>
+    </section>
+    
+    <section id="section2">
+        <div class="container text-center">
+            <div class="row mainContent">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="card card1">
+                        <h6>Nous avons les meilleurs professeurs ici</h6>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Reiciendis voluptates
+                            asperiores magnam sunt ex. Ex possimus
+                            culpa error illo voluptatum?
+                            Lorem ipsum, dolor sit amet consectetur 
+                            adipisicing elit. Reiciendis voluptates
+                            asperiores magnam sunt ex. Ex possimus
+                            culpa error illo voluptatum?
+                        </p>
+                        <button class="bt1">
+                            <a href="#">En Savoir Plus</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <img src="images/pexels-photo-267885.jpeg" alt="" class="images-teach">
+                </div>
+            </div>
+            <div class="container" id="counteur">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="count">
+                            <i class="fa fa-book fa-2x"></i>
+                            <h2><span class="text-center counter">800</span></h2>
+                            <p class="count-text">Professeurs</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="count">
+                            <i class="fa fa-book fa-2x"></i>
+                            <h2><span class="text-center counter">3500</span></h2>
+                            <p class="count-text">Elèves</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="count">
+                            <i class="fa fa-book fa-2x"></i>
+                            <h2><span class="text-center counter">90</span><span class="percent">%</span></h2>
+                            <p class="count-text">Réussites</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="count">
+                            <i class="fa fa-book fa-2x"></i>
+                            <h2><span class="text-center counter">100</span><span class="percent">%</span class="counter"></h2>
+                            <p class="count-text">Parents Satisfaits</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section id="hightlevel">
+       <div class="container text-center text-copy">
+            Hauts Niveaux <br>
+            <button class="btn btn-danger bt2">
+                <a href="historique.html">En Savoir Plus</a>
+            </button>
+       </div>
+   </section>
+   <section id="section4">
+    <div class="container main">
+        <div class="row actuality">
+            <div class="col-md-6 card1 studentPicture">
+              <div>
+                <div id="demos" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="defil">
+                        <li data-target="#demos" data-slide-to="0" class="active"></li>
+                        <li data-target="#demos" data-slide-to="1"></li>
+                        <li data-target="#demos" data-slide-to="2"></li>
+                        <li data-target="#demos" data-slide-to="3"></li>
+                    </ul>                   
+                    <!-- The slideshow -->
+                    <div class="carousel-inner ">
+                        <div class="carousel-item items active"  data-interval="2000">
+                            <img src="images/header1.jpg" alt="" class="carousel-actu">
+                        </div>
+                        <div class="carousel-item items"  data-interval="2000">
+                            <img src="images/header2.jpg" alt="" class="carousel-actu">
+                        </div>
+                        <div class="carousel-item items" data-interval="2000">
+                            <img src="images/header3.jpg" alt="" class="carousel-actu">
+                        </div>
+                        <div class="carousel-item items" data-interval="2000">
+                            <img src="images/image.jpg" alt="" class="carousel-actu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 content">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 carousselText">
+                    <div id="demos" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="defil">
+                            <li data-target="#demos" data-slide-to="0" class="active"></li>
+                            <li data-target="#demos" data-slide-to="1"></li>
+                            <li data-target="#demos" data-slide-to="2"></li>
+                            <li data-target="#demos" data-slide-to="3"></li>
+                        </ul>                   
+                        <!-- The slideshow -->
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item items active"  data-interval="2000">
+                                <h2>Actualités</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Eligendi a deserunt neque modi quam 
+                                    perferendis totam assumenda harum obcaecati 
+                                    sapiente,
+                                    eaque ullam dolor dolores reiciendis, 
+                                    natus perspiciatis aspernatur optio 
+                                    maiores? <a href="actualite.html" class="link-actuaity">En savoir plus</a>
+                                </p>
+                            </div>
+                            <div class="carousel-item items"  data-interval="2000">
+                                <h2>Actualités</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Eligendi a deserunt neque 
+                                    modi quam perferendis totam assumenda harum 
+                                    obcaecati sapiente, eaque ullam dolor 
+                                    dolores reiciendis, natus perspiciatis 
+                                    aspernatur optio maiores? <a href="actualite.html" class="link-actuaity">En savoir plus</a>
+                                </p>
+                            </div>
+                            <div class="carousel-item items" data-interval="2000">
+                                <h2>Actualités</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Eligendi a deserunt neque 
+                                    modi quam perferendis totam assumenda harum 
+                                    obcaecati sapiente, eaque ullam dolor 
+                                    dolores reiciendis, natus perspiciatis 
+                                    aspernatur optio maiores? <a href="actualite.html" class="link-actuaity">En savoir plus</a>
+                                </p>
+                            </div>
+                            <div class="carousel-item items" data-interval="2000">
+                                <h2>Actualités</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Eligendi a deserunt neque 
+                                    modi quam perferendis totam assumenda harum 
+                                    obcaecati sapiente, eaque ullam dolor 
+                                    dolores reiciendis, natus perspiciatis 
+                                    aspernatur optio maiores? <a href="actualite.html" class="link-actuaity">En savoir plus</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="page-footer font-small bg-dark">
+
+  <div class="footer-color">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Connectez-vous à nos reseaux sociaux</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a href="#" class="fb-ic">
+            <!-- <i class="fab fa-facebook-f white-text mr-4"> </i> -->
+            <img src="images/icon/facebook.png" alt="" class="fb-icon mr-4">
+          </a>
+          <!-- Twitter -->
+          <a href="#" class="tw-ic">
+            <!-- <i class="fab fa-twitter white-text mr-4"> </i> -->
+            <img src="images/icon/twitter.png" alt="" class="tw-icon mr-4">
+          </a>
+          <!-- Google +-->
+          <a href="#" class="gplus-ic">
+            <!-- <i class="fab fa-google-plus white-text mr-4"> </i> -->
+            <img src="images/icon/google-plus.png" alt="" class="gplus-icon mr-4">
+          </a>
+          <!--Instagram-->
+          <a href="#" class="ins-ic">
+            <!-- <i class="fab fa-instagram white-text"> </i> -->
+            <img src="images/icon/instagram.png" alt="" class="ins-icon mr-4">
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Best Vision</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          Nous sommes une Start-up qui ne fonctionne que dans les TIC
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Produits</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">E-SCHOOL</a>
+        </p>
+        <p>
+          <a href="#!">LA PARISIENNE</a>
+        </p>
+        <p>
+          <a href="#!">LE BOULANGER</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Autres liens</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">bestvision</a>
+        </p>
+        <p>
+          <a href="#!">la parisienne</a>
+        </p>
+        <p>
+          <a href="#!">le boulanger</a>
+        </p>
+        <p>
+          <a href="#!">Aide</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contacts</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <img src="images/icon/call-answer.svg" alt="" class="call-answer mr-2">+225 79 57 94 74 
+        </p>
+        <p>
+          <img src="images/icon/call-answer.svg" alt="" class="call-answer mr-2"> +225 07 26 75 72
+        </p>
+        <p>
+          <img src="images/icon/call-answer.svg" alt="" class="call-answer mr-2"> +225 77 83 04 19
+        </p>
+        <p>
+          <img src="images/icon/call-answer.svg" alt="" class="call-answer mr-2"> +225 57 24 29 14
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright :
+    <a href="#"> Guyzo La Merveille</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->         
+
+
+
+    <!--link js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.js"></script>
+    <script src="Counter-Up-master/Counter-Up-master/jquery.counterup.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

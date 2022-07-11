@@ -1,0 +1,20 @@
+/* VARIBLES */
+
+:root{
+    --colorBody: #fff;
+    --colorFirstBlue:  #79f8f8;
+    --colorSecondBlue:  #0abab5;
+    --colorText: #8b8e94;
+    --colorViolet: #6a41ed;
+    --colorBlack: #181920;
+    --colorGreen: #4ad292;
+    --bodyFont: 'Raleway';
+}
+
+#levels{
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+    color: var(--colorBlack);
+    background-color: red;
+}

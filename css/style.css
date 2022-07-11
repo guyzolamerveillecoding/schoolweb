@@ -1,0 +1,599 @@
+/* VARIBLES */
+
+:root{
+    --colorBody: #fff;
+    --colorFirstBlue:  #79f8f8;
+    --colorSecondBlue:  #0abab5;
+    --colorText: #8b8e94;
+    --colorViolet: #6a41ed;
+    --colorBlack: #181920;
+    --colorGreen: #4ad292;
+    --bodyFont: 'Raleway';
+}
+
+
+
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-size: 16px;
+    background-color: var(--colorBody);
+    font-family: var(--bodyFont);
+}
+
+.test{
+    border: 1px solid red;
+}
+
+
+/* TEACHER PAGE */ 
+
+
+#studentone,
+#educatorone,
+#principalone,
+#teachone{
+    height: 60vh;
+    background-color: var(--colorViolet);
+}
+
+
+#studentone,
+#educatorone,
+#principalone,
+#teachone h5{
+    color: var(--colorBody);
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+
+
+#studenttwo,
+#educatortwo,
+#principaltwo,
+#teachtwo{
+    margin-bottom: 5rem;
+}
+
+
+#studentthree,
+#educatorthree,
+#principalthree,
+#teachthree{
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+
+.mainContent{
+    margin-top: -8rem;
+}
+
+.card1, .images-teach{
+    height: 100%;
+    width: 100%;
+}
+
+.card1{
+    padding: 0 2rem;
+    border-radius: 0 !important;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+.card1 h6{
+    color: var(--colorViolet);
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--colorBlack);
+}
+
+.card1 p{
+    color: var(--colorViolet);
+}
+
+.images-teach{
+    background-size: 100%;
+    background-position: center;
+}
+
+button{
+    outline: 0 !important;
+}
+
+.bt1{
+    padding: .2rem;
+    border: 0;
+    border-radius: 2rem;
+    width: auto;
+    background-color: var(--colorGreen);
+    color: var(--colorBody);
+    transition: 2s;
+}
+
+.bt1:hover{
+    background-color: var(--colorViolet);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.bt1 a{
+    color: inherit;
+}
+
+.images-g{
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.copy{
+    text-align: center;
+}
+
+.reseaux-sociaux{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+}
+
+.card2{
+    height: 15rem;
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+.card2:hover{
+    transform: scale(1.01);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    transition: .5s;
+}
+
+.images-card2{
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+
+/* INDEX PAGE */
+
+/* SECTION CAROUSEL */ 
+
+.slide1,.slide2,.slide3{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-copy{
+    color: var(--colorBody);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+
+.first-text{
+    color: var(--colorSecondBlue);
+}
+
+.slide1{
+    background-image: url("../images/pexels-photo-267885.jpeg");
+}
+
+.slide2{
+    background: linear-gradient(#0000003b, #0000003b), url("../images/header2.jpg");
+}
+
+.slide3{
+    background: linear-gradient(#0000003b, #0000003b), url("../images/header3.jpg");
+}
+
+/* SECTION WELCOME */
+
+#welcome{
+    height: 50vh;
+    background-color: var(--colorViolet);
+}
+
+#welcome h5{
+    color: var(--colorBody);
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+
+#counteur{
+    margin-top: 2rem;
+}
+
+.counter, .percent{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--colorFirstBlue);
+}
+
+.count-text{
+    color: var(--colorText);
+    font-weight: bold;
+}
+
+/* HIGHTLEVEL */ 
+
+#hightlevel{
+    height: 50vh;
+    background-image: url("../images/pexels-photo-267885.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 5rem;
+}
+
+.bt2 a{
+    color: inherit;
+    transition: 2s;
+}
+
+.bt2 a:hover{
+    transition: 2s;
+}
+
+
+/* SECTION 4 */
+
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 3rem;
+}
+
+.studentPicture{
+    background-color: var(--colorBlack);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.content{
+    background-color: var(--colorBlack);
+    color: var(--colorBody);
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+
+#section4 h2{
+    color: var(--colorSecondBlue);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#section4 p{
+    color: var(--color-gray);
+    font-size: 1rem;
+}
+
+.main{
+    box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+.defil{
+    list-style: none;
+}
+
+/* PAGE DEVOIR */ 
+
+#firstSection{
+    background-color: red;
+    height: 100vh;
+}
+
+
+/* PAGE ACTUALITE */
+
+
+.rounded{
+    box-shadow: 0 2px 15px 1px #073afe;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: .4rem;
+}
+
+.round{
+    height: 5rem;
+    width: 7rem;
+}
+
+
+
+#actualite{
+    height: 100vh;
+    margin-bottom: 2rem;
+}
+
+
+.actu1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-actu{
+    border: none;
+    height: 35rem;
+    border-radius: .4rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #073afe;
+}
+
+.card-image-actu{
+    height: 10rem;
+    background-color: var(--colorBody);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: .5rem;
+}
+
+.card-text-actu{
+    height: 25rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.images-actu{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-actu{
+    height: auto;
+    width: 80%;
+}
+
+.caroussel-actu{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.link-actu,
+.link-actu:hover{
+    color: inherit;
+}
+
+.old-actu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* PAGE HISTORIQUE */
+
+
+#historiqueone,
+#historiquetwo,
+#historiquethree,
+#historiquefour,
+#historiquefive{
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#historiqueone
+{
+    background-image: url("../images/life-title-bg.jpg");
+    height: 100vh;
+}
+
+.historitext{
+    color: #fff;
+    display: flex;
+    font-weight: bold;
+    padding-top:  2.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.329));
+}
+
+.historitextone{
+    font-size: 3.5rem;
+}
+
+.historitexttwo{
+    font-size: 1.2rem;
+}
+
+.images_historiquefour,
+.images_historiquetwo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.images_historiquetwo{
+    background-image: url("../images/pexels-photo-267885.jpeg");
+}
+
+.globalcolonn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+
+.firstcolonne h3,
+.secondcolonne h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.firstcolonne h4,
+.secondcolonne h4{
+    color: #3db166;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.firstcolonne p,
+.secondcolonne p{
+    color: #909090;
+    font-size: 16px;
+    margin: 0px 0px 20px;
+    text-align: right;
+}
+
+.thirdcolonn p{
+    text-align: left;
+}
+
+
+#historiquethree{
+    background-image: url("../images/livres_etudiant.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.historicbiblio{
+    background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.329));
+    text-align: center;
+}
+
+.historicbiblio h2{
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.historicbiblio p{
+    text-align: left;
+    width: 20rem;
+    font-size: 1.2rem;
+}
+
+
+#historiquefour{
+
+}
+
+
+.images_historiquefour{
+    background-image: url("../images/life-title-bg.jpg");
+}
+
+
+#historiquefive{
+    height: 100vh;
+    background-image: url("../images/pexels-photo-267885.jpeg");
+    background-attachment: scroll;
+}
+
+
+/* PAGE HISTORIQUE */
+
+
+/* PAGE PRINCIPAL */
+
+
+/* PAGE PRINCIPAL */
+
+
+/* PAGE EDUCATOR */
+
+
+/* PAGE EDUCATOR */
+
+
+/* PAGE STUDENT */
+
+
+/* PAGE STUDENT */
+
+/* FOOTER */
+
+footer{
+    color: #fff;
+}
+
+.fb-icon,
+.tw-icon,
+.gplus-icon,
+.ins-icon
+{
+    width: 20px;
+}
+
+.call-answer{
+    width: 15px;
+}
+
+footer a{
+    color: #fff;
+}
+
+.footer-color{
+    background-color: #6351ce;
+}
+
+.footer-copyright{
+    background-color: #000;
+}
+
+@media screen and (max-width: 500px){
+
+        
+    .firstcolonne h4,
+    .secondcolonne h4{
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        color: red;
+    }
+
+    .firstcolonne p,
+    .secondcolonne p{
+        text-align: center;
+        color: #000;
+        font-size: 1.2rem;
+    }
+
+    .historitext{
+        display: block;
+    }
+
+    .footer{
+        margin-top: 18rem;
+    }
+}
